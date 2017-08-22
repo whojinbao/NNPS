@@ -22,6 +22,8 @@
 }
 
 #top {
+	margin: 0px;
+	padding: 0px;
 	border-bottom: 3px solid #4588BD;
 	height: 16%;
 }
@@ -40,10 +42,12 @@
 }
 
 #kh {
+	font-size:10px;
 	margin-left: 15%;
 }
 
 #xinxi {
+	font-size:10px;
 	margin-left: 45%;
 }
 
@@ -117,8 +121,7 @@
 		</div>
 		<div id="top2">
 			<div id="log">
-				<img alt="..." src="..."
-					style="height:100%;width:15%;margin-left:10%;float:left;">
+				<img  src="../img/log11.png" style="height:100%;width:15%;margin-left:10%;float:left;">
 			</div>
 			<div id="daohang">
 				<button id="cz" class="btn" style="">会员充值</button>

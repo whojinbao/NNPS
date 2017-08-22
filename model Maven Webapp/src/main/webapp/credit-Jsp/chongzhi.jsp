@@ -14,11 +14,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css"
 	type="text/css"></link>
 <style type="text/css">
+body{
+	margin:0px;
+	padding:0px;
+}
 	#left{
 		float:left;
 		border:1px solid red;
 		height:100%;
-		width:25%;
+		width:24%;
 	}
 	#right{
 		float:left;
@@ -26,11 +30,41 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		height:100%;
 		width:75%;
 	}
+	#top_left{
+		
+		height:20%;
+		width:100%;
+	}
+	#top_left{
+		padding-top:10%;
+		
+		vertical-align:middle;
+		
+		text-align: center;
+		
+	}
+	#xiahuaxian{
+		font-size: 40px;
+		border-bottom:2px solid gray;
+	}
 </style>
 </head>
 
 <body>
-	<div id="left"></div>
+	<div id="left">
+		<div id="top_left"><span id="xiahuaxian">会员充值</span>
+			<br/>
+			<br/>
+			<p>元/￥</p>
+		</div>
+		<div>
+			<ul class="ul">
+				<li>xxxxxxxxxxxxxx</li>
+				<li>11111111111111</li>
+				<li>22222222222222</li>
+			</ul>
+		</div>
+	</div>
 	<div id="right"></div>
 </body>
 </html>
